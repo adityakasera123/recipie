@@ -18,10 +18,10 @@ align-items: center;
 justify-content: space-between;
 }
 .cardleft{
-  width: 400px;
+  width: 33%;
   height: 95vh;
  background-image:url(./assest/images/effect.jpg);
-  border-radius: 20px;
+   border-bottom-left-radius: 20px;
   padding: 15px;
   color: #fff;
   position: relative;
@@ -127,14 +127,14 @@ margin-top: 30px;
 
 .cardright{
 
-  width: 400px;
+  width: 32%;
   height: 95vh;
   background-image:url(./assest/images/yellow\ bg\ \(1\).png);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-
-  border-radius: 20px;
+margin-bottom: 1px;
+   border-bottom-right-radius: 25px;
   padding: 25px;
   color: #fff;
   position: relative;
@@ -218,4 +218,18 @@ margin-top: -250px;
 }
 .lastbutton i{
  margin-right: 5px;
+}
+
+.navmid{
+  width: 35%;
+  height: 95vh;
+  position: relative;
+  overflow: hidden;
+  
+}
+
+.navmid img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
