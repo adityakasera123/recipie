@@ -5,11 +5,11 @@
 }
 
 html, body {
-  
   height: 100%;
   width: 100%;
 }
 #main{
+  background-color:#FFFCF1;
   padding: 10px 15px;
 
 }
@@ -239,14 +239,15 @@ margin-top: -250px;
   object-fit: cover;
 }
 .aboutsec{
-height: 50vh;
+height: 55vh;
   display: flex;
   gap: 35px;
   padding: 10px 15px;
 }
 
 .leftabout{
-  width:33%;
+
+  width:35%;
 }
 .basket{
 display: flex;
@@ -267,7 +268,7 @@ justify-content: space-between;
 }
 
 .midabout{
-  width: 33%;
+  width: 37%;
 }
 .chicken{
   display: flex;
@@ -286,7 +287,7 @@ justify-content: space-between;
 
 .rightabout{
  
-  width: 33%;
+  width: 30%;
 
 }
 .sugar{
@@ -305,12 +306,12 @@ justify-content: space-between;
 }
  
 .innerbasket img{
-    width: 170px;
+    width: 171px;
     margin-left: -25px;
 }
 
 .innerbasket{
-  margin-top: 50px;
+  margin-top: 14%;
   display: flex;
 justify-content:center;
 }
@@ -345,4 +346,81 @@ font-size: 18px;
   width: 30%;
   border: 0.1px solid black;
 
+}
+
+
+
+
+
+
+.innerbasket2 img{
+    width: 125px;
+
+}
+
+.innerbasket2{
+
+  margin-top: 14%;
+  display: flex;
+justify-content:center;
+}
+.innerbasket2 h3{
+  margin-top: 15px;
+  font-size: 2.3vw;
+  font-family: 'Times New Roman', Times, serif;
+  line-height: 30px;
+  
+  font-weight: 500;
+  letter-spacing: -1px;
+}
+
+.innercontent2 p{
+margin-top: 17px;
+font-family:Arial, Helvetica, sans-serif;
+font-size: 16px;
+line-height: 22px;
+}
+.innercontent2{
+  margin-left: 23px;
+}
+
+
+
+
+.innerbasket3 img{
+  margin-top: 20px;
+ width: 90px;
+    margin-left:-25px;
+}
+
+.innerbasket3{
+
+  margin-top: 14%;
+  display: flex;
+justify-content:center;
+}
+.innerbasket3 h3{
+  margin-top: 15px;
+  font-size: 2.3vw;
+  font-family: 'Times New Roman', Times, serif;
+  line-height: 30px;
+  
+  font-weight: 500;
+  letter-spacing: -1px;
+}
+
+.innercontent3 p{
+margin-top: 17px;
+font-family:Arial, Helvetica, sans-serif;
+font-size: 16px;
+line-height: 22px;
+}
+.innercontent3{
+  /* margin-left: 23px; */
+}
+
+.aboutsec{
+border-bottom-right-radius: 15px;
+border-bottom-left-radius: 15px;
+  border-bottom: 2px solid #F3F1E4;
 }
