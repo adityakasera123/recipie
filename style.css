@@ -433,7 +433,7 @@ border-bottom-left-radius: 15px;
   margin-top: 50px;
 
   padding: 35px;
-  width: 40%;
+  width: 45%;
   background-color: #FFE352;
   border-radius: 20px;
   margin-bottom: 40px;
@@ -506,12 +506,12 @@ background-color: #fff;
 
 
 .trendingright{
-padding: 10px;
+padding: 20px;
   width: 62%;
     margin-left: 75px;
     margin-right: 45px;
   margin-top: 50px;
-  background-color: orange;
+
   border-radius: 30px;
   margin-bottom: 40px;
 }
@@ -566,6 +566,7 @@ background-color: #FF6B3C;
 
 
 .classiccontent{
+  position: relative;
   margin-top: 50px;
 }
 .classiccontent h6{
@@ -587,7 +588,7 @@ background-color: #FF6B3C;
 
 .lining6{
   margin-top: 8px;
-  width: 20%;
+  width: 35%;
 
   border: 0.7px solid black;
 }
@@ -595,4 +596,16 @@ background-color: #FF6B3C;
 .classiccontent p{
   font-size: 20px;
   margin-top: 40px;
+}
+
+.classic{
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+
+}
+.classicImg img{
+  width: 210px;
+
+    margin-top: 20px;
 }
