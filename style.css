@@ -609,3 +609,69 @@ background-color: #FF6B3C;
 
     margin-top: 20px;
 }
+
+
+.leftfeatured{
+  display: flex;
+  flex-direction: column;
+  justify-content:space-evenly;
+  padding: 20px;
+  width: 40%;
+  height: 78vh;
+}
+.featured{
+
+
+border-bottom: 1px solid black;
+padding: 25px;
+
+
+}
+.dive span{
+  font-weight: 600;
+}
+.dive h4{
+  font-weight: 500;
+  font-size: 4vw;
+  line-height: 3.5vw;
+}
+.dive h5{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  padding: 15px;
+  border-radius: 30px;
+  border: 1px solid black;
+  margin-top: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: black; color:  white;
+  font-size: 20px;
+}
+.sliceDis{
+  display: flex;
+  gap: 30px;
+}
+.slice{
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+
+border-radius: 50px;
+
+background-color: #FF6B3C;
+}
+
+.basilpasta h5{
+  margin-top: 25px;
+  font-size: 2vw;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.basilpasta p{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  margin-top: 20px;
+}
