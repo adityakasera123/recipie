@@ -620,11 +620,10 @@ background-color: #FF6B3C;
   height: 78vh;
 }
 .featured{
-
-
-border-bottom: 1px solid black;
+height: 89vh;
+border-bottom: 3px solid #F5F2E6;
+border-radius: 35px;
 padding: 25px;
-
 
 }
 .dive span{
@@ -786,4 +785,85 @@ height: 140px;
   height: 100%;
   object-fit: cover;
 
+}
+
+.foodflavour{
+
+  padding: 45px;
+
+}
+
+.leftflavour{
+  display: flex;
+margin-left: 10px;
+justify-content: space-between;
+  padding: 20px;
+  width: 54%;
+  height: 70vh;
+
+
+}
+.lining7{
+  width: 100px;
+  border: 0.5px solid black;
+}
+.divflavour1{
+  display: flex;
+  align-items: center;
+gap: 20px;
+}
+.divflavour1 h1{
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.flavorpartl img{
+  margin-top: 40px;
+    width: 260px;
+    height: 380px;
+object-fit: cover;
+    border-radius: 20px;
+}
+.flavorpartr1 img{
+  margin-top: 10px;
+  width: 180px;
+
+  border-radius: 20px;
+}
+.flavorpartr1 h4{
+font-size: 30px;
+margin-top: 25px;
+}
+
+.flavorpartr1 p{
+  font-size: 16px;
+  margin-top: 17px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.flavorpartr2{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.flavorpartr{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.callicon img{
+  width: 50px;
+background-color:#FF6B3C;
+padding: 10px;
+border: 1px solid black;
+border-radius: 50px;
+}
+.flavorpartr2 button{
+  font-weight: bold;
+  font-size: 14px;
+  background-color: #196D58;
+  color: white;
+  padding: 15px 30px;
+  border: 1px solid black;
+  border-radius: 30px;
 }
