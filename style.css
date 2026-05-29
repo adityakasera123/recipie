@@ -1002,3 +1002,25 @@ body {
 .foodflavour{
   border-bottom: 3px solid #F5F2E8 ;border-radius: 2%;
 }
+
+
+
+.bite{
+  margin-top: 2vw;
+height: 90vh;
+background-color: orangered;
+padding: 20px;
+}
+.bite h3{
+  margin-top:2vw;
+text-align: center;
+font-size: 2vw;
+font-family:fantasy;
+}
+.bite h2{
+font-weight: 500;
+line-height: 3.3vw;
+  margin-top: -2px;
+  font-size: 4vw;
+  text-align: center;
+}
