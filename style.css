@@ -1008,7 +1008,7 @@ body {
 .bite{
   margin-top: 2vw;
 height: 90vh;
-background-color: orange;
+
 padding: 25px;
 }
 .bite h3{
@@ -1031,8 +1031,8 @@ line-height: 3.3vw;
 
 .leftbook img{
   margin-top: 30px;
-  width: 230px;
-  height: 150px;
+  width: 210px;
+  height: 140px;
 border-radius: 18px;
   object-fit:cover;
 }
@@ -1042,16 +1042,19 @@ border-radius: 18px;
   font-family:Arial, Helvetica, sans-serif;
 }
 .leftbook{
-  margin-top: 40px;
+  position: relative;
   margin-left: 15px;
+  margin-top: -160px;
 }
-
+.rightbook{
+  margin-top: -160px;
+}
 .cookbook{
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-.circle-wrap{
+.circle-wrap{ 
   width: 230px;
   height: 160px;
   position: relative;
@@ -1069,4 +1072,28 @@ border-radius: 18px;
   transform: translate(-50%, -50%);
   font-size: 2vw;
   font-weight: bold;
+}
+
+
+.midbook{
+  
+position: relative;
+}
+.midpart1{
+
+  width: 400px;
+  height: 400px;
+  margin-top: 30px;
+  background-color: #FF8436;
+
+  border-radius: 50%;
+
+}
+
+.midbook img{
+width: 480px;
+position:absolute;
+top: -6%;
+left: -11%;
+
 }
