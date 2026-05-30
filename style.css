@@ -1006,7 +1006,7 @@ body {
 
 
 .bite{
-  border-bottom: 2px solid black;
+
   margin-top: 2vw;
 height: 140vh;
 position: relative;
@@ -1103,19 +1103,26 @@ left: 50%;
 
 
 .fuel{
-width: 100%;
+width: 104%;
 height: 50%;
+margin-left: -23.5px;
   position: relative;
+overflow: hidden;
   top: 10.3%;
   z-index: 5;
+     border-radius: 20px;
+}
+
+.bgimg{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
 }
 
 .fuel img{
   position: relative;
-  margin-left: -23.5px;
   object-fit: cover;
-border: 1px solid balck;
-border-radius: 20px;
     width: 104%;
     height: 102%;
 }
@@ -1176,10 +1183,61 @@ margin-right: 10px;
 .iconfuel{
   display: flex;
   align-items: center;
+
   justify-content: center;
 width: 60px;
 height: 60px;
   padding: 17px;
   background-color: #FE6B3D;
   border-radius: 50%;
+}
+
+.smallimgfuel img{
+  width: 60px;
+  height: 60px;
+background-color:yellow;
+  border-radius: 50%;
+}
+.smallimgfuel{
+  position: absolute;
+  top: 16%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.smallimgfuel span{
+  width: 70px;
+  height: 70px;
+margin: -10px;
+  border-radius: 50%;
+}
+
+.smallimgfuel .img1fuuel{
+background: #004A35;
+ width: 58px;
+ background:yellow;
+ padding: 5px;
+  height: 58px;
+}
+
+
+.fuelimglefttop img{
+  position: absolute;
+  width: 160px;
+  height: 120px;
+  top: -5%;
+  left: 8%;
+}
+.fuelimgrightbottom{
+   position: absolute;
+  width: 150px;
+  height: 120px;
+  top: 80%;
+  left: 80%;
+}
+.fuelimglefttbottom{
+  position: absolute;
+  width: 150px;
+  height: 120px;
+  top: 80%;
+  left: 0%;
 }
