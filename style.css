@@ -1106,7 +1106,7 @@ left: 50%;
 width: 100%;
 height: 50%;
   position: relative;
-  top: 10.5%;
+  top: 10.3%;
   z-index: 5;
 }
 
@@ -1117,26 +1117,69 @@ height: 50%;
 border: 1px solid balck;
 border-radius: 20px;
     width: 104%;
-    height: 103%;
+    height: 102%;
 }
 .fuel h4{
+  font-family: Arial, Helvetica, sans-serif;
   position:absolute;
-  top: 35%;
+  top: 33%;
   left: 50%;
   transform: translate(-50%,-50%); color: white;
-  font-size: 1.7rem;
+  font-size: 1.6rem;
 z-index:2 ;
 }
 .fuel h1{
   position:absolute;
   text-align: center;
-  top: 55%;
+  top: 53%;
   left: 50%;
   font-weight: 500;
   transform: translate(-50%,-50%); color: white;
-  font-size: 4.5rem;
+  font-size: 4.6rem;
   line-height: 5vw;
   margin-top: 10px;
 z-index:2 ;
 
+}
+
+.fuel h1 span{
+  color: #85FE76;
+}
+
+
+.fuel .fuelButton{
+  position: absolute;
+  top: 86%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  font-size: 2.5vw;
+  color: #fff;
+}
+
+.fuelButton{
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.fuelButton h6{
+  border: 1px solid black;
+  border-radius: 30px;
+  padding: 16px 20px;
+  background-color: #fff;
+  color: black;
+}
+.fuelButton span i{
+margin-right: 10px;
+}
+
+.iconfuel{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+width: 60px;
+height: 60px;
+  padding: 17px;
+  background-color: #FE6B3D;
+  border-radius: 50%;
 }
