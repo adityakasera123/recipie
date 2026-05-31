@@ -1004,7 +1004,7 @@ body {
 
 
 .bite{
-
+margin-bottom: -10px;
   margin-top: 2vw;
 height: 140vh;
 position: relative;
@@ -1241,6 +1241,9 @@ background: #004A35;
 }
 
 .footer{
+
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
   padding: 40px 20px;
   display: grid;
   grid-template-columns: 1.5fr 1fr 1fr 1fr;
@@ -1265,31 +1268,138 @@ gap: 17px;
 }
 
 .footer-col h4{
-  font-size: 1.8rem;
+  font-size: 1.4rem;
+  font-weight: lighter;
+  font-family:sans-serif;
+  color: #8D8D8D;
 
 }
 
 .footer-col a{
+  font-size: 14px;
   margin-top: 5px;
   text-decoration: none;
-  color: inherit;
+  color: #8D8D8D;
   font-family: Arial, Helvetica, sans-serif;
 }
 
 .footer-col .footer2{
 font-size: 1.3rem;
+color: #8D8D8D;
 }
 
 .footer-col h6 span{
 font-size: 1.2rem;
-color: inherit;
+color: #8D8D8D;
 font-weight: 500;
 }
 .footer-col h6{
   font-size: 1.5rem;
+  color: #8D8D8D;
 }
 .footer{
-  height: 42vh;
-  border-bottom: 1px solid black;
+ 
+  background-color: #111;
+  color: white;
+    border-bottom: 1px solid white;
+  height: 55vh;
   margin-top: 20px;
+}
+.linebtn{
+   grid-column: 1/-1;
+
+    display: flex;
+    align-items: center;
+}
+
+.line{
+    flex: 1;
+    height: 1px;
+    background: white;
+}
+
+.linebtn button{
+    padding: 9px 20px;
+    font-size: 15px;
+    border-radius: 20px;
+    border: 1px solid white;
+    background: white;
+    color: black;
+    margin-right: 20px;
+}
+
+
+.footerbottom{
+  width: 100%;
+
+  background: #111111;
+  color: #fff;
+  margin-top: -5px;
+}
+
+
+.footer3{
+  
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  margin-top: -5px;
+  height: 30vh;
+}
+
+.footer4{
+  display: flex;
+  gap: 40px;
+
+justify-content: space-between;
+}
+.footer3 p{
+font-weight: lighter;
+  color: #8D8D8D;
+  font-family: serif;
+  width: 40%;
+  font-size: 1.1rem;
+}
+
+.footer4 h4,h3{
+  font-size: 1.8vw;
+  color: #8D8D8D;
+}
+.footer4 h3,h4{
+  margin-right: 50px;
+  
+
+}
+.footer4 h4{
+  font-weight: 500;
+  margin-top: 20px;
+  margin-right: 50px;
+font-family: serif;
+}
+.footer4 h3{
+    font-family:'Times New Roman', Times, serif;
+   font-weight: 500;
+  margin-top: 20px;
+  margin-right: 50px;
+
+}
+
+.footerlink a{
+  text-decoration: none;
+  color: #8D8D8D;
+  font-size: 1.6rem;
+  font-weight: lighter;
+  margin-left: 20px;
+
+}
+
+.footerlink{
+  display: flex;
+gap: 40px;
+
+  flex-direction: column;
+}
+.footerbottom{
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
 }
