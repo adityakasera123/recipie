@@ -1241,15 +1241,15 @@ background: #004A35;
 }
 
 .footer{
-  padding: 40px 0px;
+  padding: 40px 20px;
   display: grid;
-grid-template-columns: 1.5fr 1fr 1fr 1fr;
-
+  grid-template-columns: 1.5fr 1fr 1fr 1fr;
+  gap: 90px;
 }
 
 .footer-col{
   display: flex;
-gap: 15px;
+gap: 17px;
   flex-direction: column;
 }
 .footer-col h3{
@@ -1269,6 +1269,27 @@ gap: 15px;
 
 }
 
+.footer-col a{
+  margin-top: 5px;
+  text-decoration: none;
+  color: inherit;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 .footer-col .footer2{
 font-size: 1.3rem;
+}
+
+.footer-col h6 span{
+font-size: 1.2rem;
+color: inherit;
+font-weight: 500;
+}
+.footer-col h6{
+  font-size: 1.5rem;
+}
+.footer{
+  height: 42vh;
+  border-bottom: 1px solid black;
+  margin-top: 20px;
 }
